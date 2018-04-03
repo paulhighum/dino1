@@ -3,6 +3,7 @@ import "./App.css"
 import { Header } from "./header"
 import { Section } from "./section"
 import { Form } from "./form"
+import { Footer } from "./footer"
 
 class App extends Component {
   constructor(props) {
@@ -36,6 +37,7 @@ class App extends Component {
             <Form updateData={this.updateData} />
           </aside>
         </main>
+        <Footer />
       </div>
     )
   }
