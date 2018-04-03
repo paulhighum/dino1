@@ -2,8 +2,8 @@ import React, { Component } from "react"
 import "./App.css"
 import { Header } from "./header"
 import { Section } from "./section"
-import { Form } from "./form"
 import { Footer } from "./footer"
+import { Form } from "./form"
 
 class App extends Component {
   constructor(props) {
